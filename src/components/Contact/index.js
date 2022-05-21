@@ -50,7 +50,7 @@ const Contact = () => {
           </h1>
           <p>
             I am interested in internships, projects, open source developments.
-            I have high intersts in new technolgies, cloud-computing, AI and ML.
+            I have high interests in new technolgies, cloud-computing, AI and ML.
           </p>
           <div className="contact-form">
             <form ref={form} onSubmit={sendEmail}>
@@ -102,7 +102,7 @@ const Contact = () => {
           <MapContainer center={[28.6137, 77.09798]} zoom={15}>
             <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
             <Marker position={[28.6137, 77.09798]}>
-              <Popup>Sloba lives here, come over for a cup of coffee :)</Popup>
+              <Popup>Kshitij lives here, come over for a cup of coffee :)</Popup>
             </Marker>
           </MapContainer>
         </div>
