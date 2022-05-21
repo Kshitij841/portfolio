@@ -35,28 +35,39 @@ const About = () => {
           <p>
             If I need to define myself in one sentence that would be tech saavy,
             avid music listener, Formula 1 fan(but here comes Sebastian Vettel!)
-            and a quick learner
+            and a quick learner.
           </p>
+          <a href='https://drive.google.com/file/d/15d9gHWi_8f729CjSfwcJvN8iOI800BMu/view?usp=sharing' target="_blank" rel="noreferrer" className="flat-button">
+            <span>View Resume</span>
+          </a>
         </div>
       </div>
-
-      <div className='loader'>
-        <span></span>
+      <div className='cube1'>
+        <div className='top1'></div>
+        <div>
+          <span style={{ "--i": 0 }}><h2>Python</h2><h2>Python</h2></span>
+          <span style={{ "--i": 1 }}><h2>Salesforce</h2><h2>Salesforce</h2></span>
+          <span style={{ "--i": 2 }}><h2>ReactJS</h2><h2>ReactJS</h2></span>
+          <span style={{ "--i": 3 }}><h2>C++</h2><h2>C++</h2></span>
+        </div> 
       </div>
-
-      <div className='spinning-cyl'>
-        <span style={{ "--a": 1 }}><i>P</i>ytho<i>n</i></span>
-        <span style={{ "--a": 2 }}><i>S</i>alesforc<i>e</i></span>
-        <span style={{ "--a": 3 }}><i>C</i>opad<i>o</i></span>
-        <span style={{ "--a": 4 }}><i>H</i>tm<i>L</i></span>
-        <span style={{ "--a": 5 }}><i>C</i>S<i>S</i></span>
-        <span style={{ "--a": 6 }}><i>S</i>Q<i>L</i></span>
-        <span style={{ "--a": 7 }}><i>J</i>avaScrip<i>t</i></span>
-        <span style={{ "--a": 8 }}><i>R</i>eactJ<i>S</i></span>
-        <span style={{ "--a": 9 }}><i>B</i>lende<i>r</i></span>
-        <span style={{ "--a": 10 }}><i>W</i>indow<i>s</i></span>
-        <span style={{ "--a": 11 }}><i>L</i>inu<i>x</i></span>
-        <span style={{ "--a": 12 }}><i>M</i>Soffic<i>e</i></span>
+      <div className='cube2'>
+        <div className='top2'></div>
+        <div>
+          <span style={{ "--j": 0 }}><h3>SQL</h3><h3>SQL</h3></span>
+          <span style={{ "--j": 1 }}><h3>HTML</h3><h3>HTML</h3></span>
+          <span style={{ "--j": 2 }}><h3>CSS</h3><h3>CSS</h3></span>
+          <span style={{ "--j": 3 }}><h3>JS</h3><h3>JS</h3></span>
+        </div> 
+      </div>
+      <div className='cube3'>
+        <div className='top3'></div>
+        <div>
+          <span style={{ "--k": 0 }}><h3>/</h3><h3>/</h3></span>
+          <span style={{ "--k": 1 }}><h3>/</h3><h3>/</h3></span>
+          <span style={{ "--k": 2 }}><h3>/</h3><h3>/</h3></span>
+          <span style={{ "--k": 3 }}><h3>/</h3><h3>/</h3></span>
+        </div> 
       </div>
 
       <Loader type="pacman" />
