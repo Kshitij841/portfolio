@@ -9,12 +9,12 @@ import './App.scss'
 function App() {
   return (
     <>
-      <Routes basename={process.env.PUBLIC_URL}>
-        <Route path="/" element={<Layout />}>
-          <Route index element={<Home />} />
-          <Route path="about" element={<About />} />
-          <Route path="/contact" element={<Contact />} />
-          <Route path="/project" element={<Project />} />
+      <Routes>
+        <Route path="/" element={<Layout />} basename={process.env.PUBLIC_URL}>
+          <Route index element={<Home />} basename={process.env.PUBLIC_URL}/>
+          <Route path="about" element={<About />} basename={process.env.PUBLIC_URL}/>
+          <Route path="/contact" element={<Contact />} basename={process.env.PUBLIC_URL}/>
+          <Route path="/project" element={<Project />} basename={process.env.PUBLIC_URL}/>
         </Route>
       </Routes>
     </>
