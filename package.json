@@ -29,7 +29,7 @@
     "start": "react-scripts start",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
-    "build": "react-scripts build && cp build/index.html build/404.html",
+    "build": "react-scripts build && babel-node -- node_modules/webpack/bin/webpack -p --config tools/webpack.config && copy demo\\assets\\js\\form-* dist\\",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
